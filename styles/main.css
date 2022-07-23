@@ -48,6 +48,7 @@ header nav .header-mobile-bar a {
 }
 header nav .header-top span:first-child a {
   display: none;
+  color: #3a3a3a;
 }
 header nav .header-logo a {
   color: #3a3a3a;
@@ -277,8 +278,11 @@ footer .footer-icon a {
     align-items: center;
     justify-content: space-between;
   }
-  header nav .header-top:first-child a {
+  /* header nav .header-top:first-child a {
     color: #3a3a3a;
+  } */
+  header nav .header-top span:first-child a {
+    display: block;
   }
   header nav .header-mobile-bar a {
     display: block;
@@ -289,7 +293,7 @@ footer .footer-icon a {
   /* Banner CSS Styles */
   #banner {
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 0px;
   }
 
   #banner .container {
