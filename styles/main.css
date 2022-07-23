@@ -275,4 +275,26 @@ footer .footer-icon a {
   header nav .nav-links a:last-child {
     display: block;
   }
+  /* Banner CSS Styles */
+  #banner .container {
+    flex-direction: column;
+  }
+  #banner .banner-content {
+    text-align: center;
+  }
+  #banner .banner-title {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  #banner .banner-content p {
+    color: #3a3a3a;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  #banner .banner-content .btn {
+    text-align: ;
+  }
 }
