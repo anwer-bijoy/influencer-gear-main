@@ -266,14 +266,21 @@ footer .footer-icon a {
 ------------------------*/
 @media screen and (max-width: 688px) {
   /* Header CSS Styles */
+  header nav .header-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav .header-top:first-child a {
+    color: #3a3a3a;
+  }
   header nav .header-mobile-bar a {
     display: block;
   }
   header nav .nav-links a {
     display: none;
-  }
-  header nav .nav-links a:last-child {
-    display: block;
   }
   /* Banner CSS Styles */
   #banner {
