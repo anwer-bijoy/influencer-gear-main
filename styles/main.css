@@ -1,0 +1,278 @@
+/* ----------------------
+        Google Fonts 
+------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ----------------------
+        Common CSS styles 
+------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-block;
+  background-color: #c20984;
+  color: #fff;
+  padding: 8px 20px;
+}
+/* ----------------------
+        Header CSS styles 
+------------------------*/
+header {
+  margin-top: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .header-mobile-bar a {
+  display: none;
+  width: 24px;
+  height: 24px;
+  color: #1b1b1b;
+}
+header nav .header-logo a {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+header nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header nav .nav-links a {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all ease 0.5s;
+}
+header nav .nav-links a:hover {
+  color: #e02c6d;
+}
+/* ----------------------
+        Banner CSS styles 
+------------------------*/
+#banner {
+  margin-top: 80px;
+}
+#banner .container {
+  display: flex;
+  align-items: center;
+}
+#banner .banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+#banner .banner-content p {
+  color: #3a3a3a;
+  width: 75%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+#banner .banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-image: url(../images/Circle-design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* ----------------------
+        Sponsor CSS styles 
+------------------------*/
+#sponsor {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 0 10% 0 5%;
+}
+#sponsor .sponser-img {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+/* ----------------------
+        Popular CSS styles 
+------------------------*/
+#popular .popular-title {
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px;
+}
+#popular .popular-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.popular-collection .popular-item {
+  padding: 15px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.popular-collection .popular-item img {
+  width: 100%;
+}
+#popular .popular-details h2 {
+  color: #18191f;
+  margin: 16px 0 6px 0;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+#popular .popular-details h3 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+#popular .popular-details .popular-ratings i {
+  color: #fb8200;
+}
+#popular .popular-details .popular-ratings span {
+  margin-left: 15px;
+}
+#popular .popular-details p {
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #787887;
+  font-size: 14px;
+  font-weight: 700;
+}
+#popular .pupular-btn {
+  color: rgba(224, 44, 110, 0.87);
+  text-align: right;
+  font-style: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#popular .pupular-btn .fa {
+  margin-left: 8px;
+}
+/* ----------------------
+        Popular CSS styles 
+------------------------*/
+#feature-product {
+  margin: 100px 0;
+}
+#feature-product .feature-card {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+#feature-product .feature-card .feature-image {
+  width: 404px;
+}
+#feature-product .feature-card .feature-details h1 {
+  color: #0a0826;
+  font-style: 38px;
+  font-weight: 700;
+  line-height: 70px;
+}
+#feature-product .feature-card .feature-details p {
+  color: #6c6c6c;
+  width: 65%;
+  font-style: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 16px 0;
+}
+#feature-product .feature-card .feature-details a {
+  display: inline-block;
+  padding: 10px 24px;
+  color: #fff;
+  background-color: #e02c6d;
+  font-style: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+#feature-product .feature-card .feature-details a .fa {
+  margin-left: 8px;
+}
+/* ----------------------
+        Popular CSS styles 
+------------------------*/
+footer {
+  background-color: #0a0826;
+  padding: 50px 0;
+}
+footer h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+footer p {
+  color: #d9dbe1;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+footer .footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+footer .footer-icon a {
+  color: #fff;
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22213c;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+/* ----------------------
+        Responsive CSS styles 
+------------------------*/
+/* ----------------------
+        Mobile CSS styles 
+------------------------*/
+@media screen and (max-width: 688px) {
+  /* Header CSS Styles */
+  header nav .header-mobile-bar a {
+    display: block;
+  }
+  header nav .nav-links a {
+    display: none;
+  }
+  header nav .nav-links a:last-child {
+    display: block;
+  }
+}
